@@ -13,6 +13,222 @@ min-height: 100vh;
 
 /* dev1 feature/navbar */
 .header-container {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7fc;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 10px;
+    padding: 24px;
+
+    background-color: #ffffff;
+    border-radius: 50px;
+
+    opacity: 1;
+    margin: 0 auto;
+}
+
+.logo {
+    color: #191929;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #7047ff;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: #252538;
+    font-size: 13px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: rgba(94, 68, 255, 1);
+;
+}
+
+.hero {
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero-badge {
+    background: rgba(86, 58, 255, 0.1);
+    color: rgba(94, 68, 255, 1);
+    padding: 8px 15px;
+    border-radius: 50px;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    color: #191929;
+    font-size: clamp(32px, 5vw, 52px);
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.hero h1 span {
+    color: #7047ff;
+}
+
+.hero p {
+    color: #363647;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.hero-button {
+    display: inline-block;
+    background-color: #191929;
+    color: #ffffff;
+    padding: 13px 25px;
+    border-radius: 10px;
+    font-size: 13px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #7047ff;
+}
+
+/* dev2 */
+
+
+/* dev1 feature/navbar */
+.header-container {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7fc;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 10px;
+    padding: 24px;
+
+    background-color: #ffffff;
+    border-radius: 50px;
+
+    opacity: 1;
+    margin: 0 auto;
+}
+
+.logo {
+    color: #191929;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #7047ff;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: #252538;
+    font-size: 13px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: rgba(94, 68, 255, 1);
+;
+}
+
+.hero {
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero-badge {
+    background: rgba(86, 58, 255, 0.1);
+    color: rgba(94, 68, 255, 1);
+    padding: 8px 15px;
+    border-radius: 50px;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    color: #191929;
+    font-size: clamp(32px, 5vw, 52px);
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.hero h1 span {
+    color: #7047ff;
+}
+
+.hero p {
+    color: #363647;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.hero-button {
+    display: inline-block;
+    background-color: #191929;
+    color: #ffffff;
+    padding: 13px 25px;
+    border-radius: 10px;
+    font-size: 13px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #7047ff;
+}
+
+/* dev2 */
+
+
+/* dev1 feature/navbar */
+.header-container {
 margin: 0 auto;
 padding: 20px;
 background-color: #f7f7fc;

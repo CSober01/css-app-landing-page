@@ -5,11 +5,13 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: rgba(246, 246, 251, 1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif;
+    background-color: #f8fafc;
+    min-height: 100vh;
 }
 
-/* dev1 */
+
+/* dev1 feature/navbar */
 .header-container {
     margin: 0 auto;
     padding: 20px;
@@ -115,3 +117,67 @@ body {
 }
 
 /* dev2 */
+
+/* 1. จัดการ์ดทั้ง 3 ใบเรียงแนวนอนด้วย Flexbox */
+.features-container {
+  display: flex;             /* ดึงการ์ดให้เรียงต่อกันแนวนอน */
+  gap: 20px;                 /* เว้นระยะห่างระหว่างการ์ด 24px */
+  max-width: 1201px;
+  height: 272px;
+  width: 100%;
+  padding: 20px;
+}
+
+/* 2. โครงสร้างพื้นฐานของการ์ด */
+.feature-card {
+  border-radius: 20px;       /* ทำมุมโค้งมนตามแบบ Figma */
+  padding: 35px 30px;
+  flex: 1;                   /* ขยายขนาดการ์ดทุกใบให้เท่ากันพอดี */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+/* 3. แยกสีพื้นหลังการ์ดทั้ง 3 ใบ ตามรูป Figma */
+.card-1 {
+  background-color: #dbeafe; /* สีฟ้าเทาอ่อน */
+}
+
+.card-2 {
+  background-color: #dbe0fe; /* สีฟ้าอมม่วงอ่อน */
+}
+
+.card-3 {
+  background-color: #ede9fe; /* สีม่วงพาสเทลอ่อน */
+}
+
+/* 4. กล่องไอคอนด้านบน */
+.icon-box {
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff; 
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+}
+
+/* 5. ข้อความหัวข้อและเนื้อหา */
+.feature-card h3 {
+  color: #1f2937;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.feature-card p {
+  color: #4b5563;
+  font-size: 14px;
+  line-height: 1.6;
+}
